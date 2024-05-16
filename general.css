@@ -1,0 +1,12 @@
+.imagCont{
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+    .imagCont:hover {
+        transform: scale(1.1);
+    }
+    .image {
+        background-image: url('tu-imagen.jpg');
+        background-size: cover;
+        background-position: center;
+    }
